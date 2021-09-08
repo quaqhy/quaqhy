@@ -1,0 +1,47 @@
+#contact {
+    background-color: var(--black);
+    color: var(--grayLight);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 130px 0;
+
+    .description {
+        text-align: center;
+        h2 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+        p {
+            margin-top: 1rem;
+            font-style: italic;
+        }
+    }
+
+    .contact-list {
+        display: flex;
+        gap: 2rem;
+        .contact-item {
+            display: flex;
+
+            a {
+                display: flex;
+                align-items: center;
+                font-size: 1.5rem;
+                gap: 0.4rem;
+                span {
+                    display: block;
+                    order: 1;
+                }
+                i {
+                    display: block;
+                    order: 0;
+                    filter: drop-shadow(1px 1px 3px var(--black));
+                }
+            }
+        }
+    }
+}
