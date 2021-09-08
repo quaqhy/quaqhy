@@ -1,0 +1,344 @@
+{
+    // custom theme
+    "material-icon-theme.folders.color": "#39A2DB",
+    "material-icon-theme.activeIconPack": "none",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.opacity": 0.8,
+    // saturation: do bao hoa mau ve 0 se bi mat mau
+    "material-icon-theme.saturation": 0.9,
+    // end custom theme
+
+    // file <=> explorer <=> windows
+    "files.autoSave": "onFocusChange",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "explorer.sortOrder": "modified",
+    "explorer.confirmDelete": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.enableDragAndDrop": true,
+    "window.openFilesInNewWindow": "off",
+    "window.openFoldersInNewWindow": "off",
+    "window.titleSeparator": " ",
+    "window.title": "${activeEditorLong}",
+    // end
+
+    // naviagtion bar above its contens called Breadcrumbs (thanh dia chi)
+    "breadcrumbs.enabled": true,
+    // duong dan
+    "breadcrumbs.filePath": "on",
+    // ham trong file
+    "breadcrumbs.symbolPath": "on",
+    "breadcrumbs.icons": true,
+    "breadcrumbs.showArrays": true,
+    "breadcrumbs.showBooleans": true,
+    // end
+
+    // Debug toolbar
+    "debug.toolBarLocation": "floating",
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.console.fontFamily": "cascadia code",
+    // end
+
+    // HTML
+    "html.format.enable": true,
+    "html.autoClosingTags": true,
+    // end
+
+    // markdown
+    // tip: Ctrl shift v open preview
+    "markdown.preview.scrollEditorWithPreview": true,
+    "markdown.preview.scrollPreviewWithEditor": true,
+    "material-icon-theme.hidesExplorerArrows": true,
+    // end
+
+    // terminal
+    "terminal.explorerKind": "integrated",
+    "terminal.external.linuxExec": "x-terminal-emulator",
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    // "terminal.integrated.shell.linux": "fish",
+    "terminal.integrated.profiles.linux": {
+        "fish": {
+            "path": "fish"
+        }
+    },
+    // end
+
+    // code runner
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    // end
+
+    // intellicode
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vsintellicode.python.completionsEnabled": true,
+    // end
+
+    // git
+    "git.autofetch": true,
+    // end
+
+    // json
+    "json.format.enable": true,
+    // end
+
+    // java
+    "java.home": "C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot",
+    // "java.home": "C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot",
+    // "java.home": "C:\\Users\\Python\\AppData\\Local\\Programs\\AdoptOpenJDK\\jdk-11.0.9.101-hotspot",
+    "java.help.firstView": "gettingStarted",
+    // end
+
+    // tabnine
+    "tabnine.experimentalAutoImports": true,
+    // end
+
+    // live server
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    // end
+
+    // sync
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.quietSync": true,
+    // end
+
+    // spell check
+    "cSpell.allowedSchemas": ["file", "sftp", "more"],
+    "cSpell.enabled": true,
+    // end
+
+    // prettier format code
+    "C_Cpp.updateChannel": "Insiders",
+    "prettier.tabWidth": 4,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "powermode.enabled": true,
+    "powermode.enableShake": false,
+    "diffEditor.wordWrap": "on",
+    "diffEditor.codeLens": true,
+    "diffEditor.maxComputationTime": 2000,
+
+    // vim
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
+    "vim.statusBarColors.insert": "#BF616A",
+    "vim.statusBarColors.visual": "#B48EAD",
+    "vim.statusBarColors.visualline": "#B48EAD",
+    "vim.statusBarColors.visualblock": "#A3BE8C",
+    "vim.statusBarColors.replace": "#D08770",
+    "vim.statusBarColors.commandlineinprogress": "#007ACC",
+    "vim.statusBarColors.searchinprogressmode": "#007ACC",
+    "vim.statusBarColors.easymotionmode": "#007ACC",
+    "vim.statusBarColors.easymotioninputmode": "#007ACC",
+    "vim.statusBarColors.surroundinputmode": "#007ACC",
+    "vim.handleKeys": {
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-x>": false,
+        "<C-a>": false,
+        "<C-d>": false,
+        "<C-w>": false,
+        "<C-f>": false
+    },
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["up"],
+            "after": ["<esc>"]
+        },
+        {
+            "before": ["down"],
+            "after": ["<esc>"]
+        },
+        {
+            "before": ["left"],
+            "after": ["<esc>"]
+        },
+        {
+            "before": ["right"],
+            "after": ["<esc>"]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["up"],
+            "after": ["<esc>"]
+        },
+        {
+            "before": ["down"],
+            "after": ["<esc>"]
+        },
+        {
+            "before": ["left"],
+            "after": ["<esc>"]
+        },
+        {
+            "before": ["right"],
+            "after": ["<esc>"]
+        },
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    // end
+
+    // workbench
+    "workbench.colorTheme": "Cobalt2",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#193549",
+        "editor.background": "#193549",
+        "minimap.background": "#193549",
+        "editorGroupHeader.tabsBackground": "#193549",
+        "tab.inactiveBackground": "#1e3f57",
+        "sideBarSectionHeader.background": "#264c73",
+        "sideBar.background": "#193549",
+        "editorGutter.background": "#193549",
+        "editorLineNumber.activeForeground": "#FFC600",
+        "editorLineNumber.foreground": "#ffc80055",
+        "statusBar.background": "#BF616A",
+        "menu.background": "#264c73",
+        "titleBar.activeBackground": "#193549",
+        "titleBar.activeForeground": "#ffffffbb",
+        "panel.background": "#193549",
+        "terminal.background": "#193549",
+        "statusBar.noFolderBackground": "#BF616A",
+        "statusBar.debuggingBackground": "#BF616A",
+        "statusBar.debuggingForeground": "#434C5E",
+        "statusBar.foreground": "#434C5E"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.settings.editor": "json",
+
+    // editor
+
+    // mini map
+    "editor.minimap.maxColumn": 0,
+    // zoom 3 lan
+    "editor.minimap.scale": 3,
+    "editor.minimap.showSlider": "always",
+    // end minimap
+    "editor.inlineSuggest.enabled": true,
+    "editor.quickSuggestionsDelay": 100,
+    "editor.suggest.showEvents": false,
+    "editor.suggest.showProperties": true,
+    "editor.fontFamily": "'Cascadia Code', 'Fira Code', consolas",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 17,
+    // "editor.fontWeight": "400",
+    //tip: line height = 1.5 font size
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "editor.trimAutoWhitespace": true,
+    "editor.lineNumbers": "on",
+    "editor.formatOnSave": true,
+    "editor.codeLens": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.insertSpaces": true,
+    // cursor
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 2,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.multiCursorPaste": "full",
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.accessibilitySupport": "off",
+    "editor.suggestSelection": "first",
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#FE9898",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": ["comment", "punctuation.definition.comment"],
+                "settings": {
+                    "foreground": "#635959",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": ["storage.type", "storage.type.function"],
+                "settings": {
+                    "foreground": "#3EDBF0",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": ["constant.numeric"],
+                "settings": {
+                    "foreground": "#FF7B54",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": ["entity.name.tag"],
+                "settings": {
+                    // "foreground": "#FF0000",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": ["string"],
+                "settings": {
+                    "foreground": "#C2F784",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": ["punctuation"],
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": ["keywords"],
+                "settings": {
+                    "foreground": "#FF8585"
+                }
+            },
+            {
+                "scope": ["variable.parameter"],
+                "settings": {
+                    "foreground": "#FF4646"
+                }
+            }
+        ]
+    }
+}
