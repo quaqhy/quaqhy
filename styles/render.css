@@ -39,6 +39,48 @@ body textarea {
   border: 1px solid rgba(51, 51, 51, 0.3);
 }
 
+::-webkit-scrollbar {
+  /* 1 */
+  width: 10px;
+}
+
+::-webkit-scrollbar-button {
+  /* 2 */
+  height: 0;
+}
+
+::-webkit-scrollbar-track {
+  /* 3 */
+  background-color: red;
+  /* padding: 10px; */
+}
+
+::-webkit-scrollbar-track-piece {
+  /* 4 */
+  background-color: #fff;
+  width: 90%;
+  border-radius: 4px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  /* 5 */
+  background-color: #bbb;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  /* margin: 10px; */
+  /* width: 90%; */
+
+}
+
+::-webkit-scrollbar-corner {
+  /* 6 */
+}
+
+::-webkit-resizer {
+  /* 7 */
+}
+
 header {
   position: fixed;
   z-index: 1;
