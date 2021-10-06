@@ -20,6 +20,8 @@
 body {
   color: var(--white);
   font-family: Poppins, sans-serif;
+  user-select: none;
+  transition: 0.2s;
 }
 body ul,
 body li,
@@ -91,6 +93,11 @@ header .nav .nav-item {
 header .nav .nav-item:hover {
   background-color: var(--blueLight);
 }
+@media (max-width: 375px) {
+  header {
+    display: none;
+  }
+}
 
 .hero {
   width: 100%;
@@ -115,22 +122,29 @@ header .nav .nav-item:hover {
   letter-spacing: 0.2rem;
   color: var(--red);
 }
+@media (max-width: 375px) {
+  .hero {
+    --sizeName: 3rem;
+    --sizeJob: 1rem;
+  }
+}
 
 .projects {
+  --fontSize: 3rem;
   width: 100%;
   height: fit-content;
   background-color: var(--blueLight);
   text-align: center;
-  padding: 5rem 2rem;
+  padding: var(--fontSize) 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+  gap: var(--fontSize);
 }
 .projects .title {
   display: block;
   width: fit-content;
-  font-size: 3rem;
+  font-size: var(--fontSize);
   position: relative;
 }
 .projects .title::after {
@@ -169,13 +183,13 @@ header .nav .nav-item:hover {
   justify-content: center;
 }
 .projects .grid .project .name::before {
-  content: "< ";
+  content: "<  ";
   color: var(--yellow);
   opacity: 0;
   transition: opacity 0.2s;
 }
 .projects .grid .project .name::after {
-  content: " />";
+  content: "  />";
   color: var(--yellow);
   opacity: 0;
   transition: opacity 0.2s;
@@ -208,8 +222,19 @@ header .nav .nav-item:hover {
 .projects .show-all:hover i {
   transform: translate(0.2rem);
 }
+@media (max-width: 768px) {
+  .projects {
+    --fontSize: 2.5rem;
+  }
+}
+@media (max-width: 375px) {
+  .projects {
+    --fontSize: 1.5rem;
+  }
+}
 
 #contact {
+  --fontSize: 3.5rem;
   background-color: var(--black);
   color: var(--grayLight);
   display: flex;
@@ -223,7 +248,7 @@ header .nav .nav-item:hover {
   text-align: center;
 }
 #contact .description h2 {
-  font-size: 3.5rem;
+  font-size: var(--fontSize);
   font-weight: 800;
   letter-spacing: 2px;
 }
@@ -253,6 +278,26 @@ header .nav .nav-item:hover {
   order: 0;
   filter: drop-shadow(1px 1px 3px var(--black));
 }
+@media (max-width: 380px) {
+  #contact {
+    padding: 30px;
+    --fontSize: 1.5rem;
+  }
+  #contact .description h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  #contact {
+    --fontSize: 1.5rem;
+  }
+  #contact .contact-list .contact-item a span {
+    display: none;
+  }
+  #contact .contact-list .contact-item a i {
+    font-size: 3rem;
+  }
+}
 
 footer {
   background-color: var(--black);
@@ -262,6 +307,16 @@ footer {
   font-size: 1.2rem;
   color: var(--grayLight);
   border-top: 0.25rem solid var(--red);
+}
+@media (max-width: 768px) {
+  footer {
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  footer span:first-child {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=render.css.map */
