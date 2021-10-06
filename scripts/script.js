@@ -13,7 +13,7 @@ function reportWindowSize() {
   //   widthOutput.textContent = window.innerWidth;
   console.log(window.innerHeight, window.innerWidth);
   console.log($(".hero>.job"));
-  if (window.innerWidth <= 375) {
+  if (window.innerWidth <= 600) {
     $(".hero>.job").innerHTML = "<strong>FrontEnd Developer</strong>";
     $("footer").innerHTML = "developed by Nguyen Huy";
     $("#project>.title").innerHTML = "my projects";
@@ -23,4 +23,4 @@ function reportWindowSize() {
 }
 
 window.onresize = reportWindowSize;
-reportWindowSize();
+setInterval(reportWindowSize(), 100);
