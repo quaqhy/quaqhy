@@ -1,8 +1,7 @@
 - 👋 Hi, I’m @hyquaq
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning at TDTU
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me software development
+- 👀 I’m interested in watch movie and do anything.
+- 🌱 I’m currently learning at TDTU 
+- 📫 How to reach me software development exactly frontend developer.
 
 [🔥🔥🔥My Website🔥🔥🔥](https://hyquaq.github.io/hyquaq/index.html)
 
