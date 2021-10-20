@@ -5,6 +5,7 @@
   --white: #f0f0f0;
   --gray: #3a3d40;
   --grayLight: #d0d2d3;
+  --gray-light: #3a3d4022;
   --black: #181719;
   --blueLight: #45567d;
   --yellow: #c0ce41;
@@ -128,24 +129,28 @@ header .menu-dot {
   width: var(--size-menu);
   height: var(--size-menu);
   border-radius: 50%;
+  box-shadow: 2px 2px 5px var(--black);
   background-color: var(--gray);
 }
 header .nav-dot {
   --p-left-right-nav-item: 0.4rem;
+  cursor: pointer;
   position: relative;
-  transform: translate(-10%, calc(var(--size-menu) + 10px));
-  transform: translate(calc(100% + var(--p-left-right-nav-item) * 2), calc(var(--size-menu) + 10px));
+  transform: translate(-10%, calc(var(--size-menu) + 15px));
+  transform: translate(calc(100% + var(--p-left-right-nav-item) * 2), calc(var(--size-menu) + 15px));
   transition: transform 0.2s;
 }
 header .nav-dot .nav-item {
   padding: 0.2rem var(--p-left-right-nav-item);
   border-radius: 5px;
+  margin-top: 0.1rem;
+  background-color: var(--gray-light);
 }
 header .nav-dot .nav-item:hover {
-  background-color: var(--blueLight);
+  background-color: var(--gray);
 }
 header .nav-dot.active {
-  transform: translate(-10%, calc(var(--size-menu) + 10px));
+  transform: translate(-10%, calc(var(--size-menu) + 15px));
 }
 
 .hero {
