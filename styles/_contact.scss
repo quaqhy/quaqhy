@@ -31,16 +31,23 @@
       a {
         display: flex;
         align-items: center;
+
         font-size: 1.5rem;
-        gap: 0.4rem;
+        gap: var(--gap-social);
+
+        font-family: "roboto";
+        text-transform: uppercase;
+        transition: all 0.2s;
         span {
           display: block;
           order: 1;
         }
-        i {
+        img {
           display: block;
           order: 0;
-          filter: drop-shadow(1px 1px 3px var(--black));
+          width: var(--size-brand);
+          height: var(--size-brand);
+          object-fit: cover;
         }
       }
     }

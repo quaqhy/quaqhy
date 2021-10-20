@@ -100,41 +100,55 @@ body textarea {
   /* 7 */
 }
 
+body header {
+  --height-header: 50px;
+  --width-header: 100%;
+  --size-menu: 30px;
+}
+body #contact a {
+  --size-brand: 4rem;
+  --gap-social: 1rem;
+}
+
 header {
   position: fixed;
   z-index: 1;
-  height: 70px;
-  width: 100%;
+  height: var(--height-header);
+  width: var(--width-header);
   display: flex;
   justify-content: flex-end;
   align-items: center;
   color: var(--white);
 }
-header .nav {
-  margin-right: 2rem;
-  height: 100%;
-  display: flex;
-  font-size: 1.5rem;
+header .menu-dot {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(-25%, 25%);
+  width: var(--size-menu);
+  height: var(--size-menu);
+  border-radius: 50%;
+  background-color: var(--gray);
 }
-header .nav .nav-item {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem;
+header .nav-dot {
+  --p-left-right-nav-item: 0.4rem;
+  position: relative;
+  transform: translate(-10%, calc(var(--size-menu) + 10px));
+  transform: translate(calc(100% + var(--p-left-right-nav-item) * 2), calc(var(--size-menu) + 10px));
+  transition: transform 0.2s;
 }
-header .nav .nav-item:hover {
+header .nav-dot .nav-item {
+  padding: 0.2rem var(--p-left-right-nav-item);
+  border-radius: 5px;
+}
+header .nav-dot .nav-item:hover {
   background-color: var(--blueLight);
 }
-@media (max-width: 600px) {
-  header {
-    display: none;
-  }
+header .nav-dot.active {
+  transform: translate(-10%, calc(var(--size-menu) + 10px));
 }
 
 .hero {
-  --sizeName: 4rem;
-  --sizeJob: 2rem;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -142,11 +156,14 @@ header .nav .nav-item:hover {
   align-items: center;
   flex-direction: column;
   background-color: var(--gray);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5084908964) 0%, rgba(0, 0, 0, 0) 100%, rgba(255, 255, 255, 0.4412640056) 100%), url(/data/me1.jpg);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5084908964) 0%, rgba(0, 0, 0, 0) 100%, rgba(255, 255, 255, 0.4412640056) 100%), url(/data/hero/1.jpg);
   background-position: center;
   background-size: cover;
+  transition: background-image 1s linear;
 }
 .hero > .name {
+  --sizeName: 4rem;
+  --sizeJob: 1rem;
   font-size: var(--sizeName);
   font-weight: normal;
   letter-spacing: 0.5rem;
@@ -159,7 +176,7 @@ header .nav .nav-item:hover {
   position: absolute;
   bottom: 0;
   top: 100%;
-  transform: translateX(-100%);
+  transform: translate(-100%, -1rem);
   font-size: var(--sizeJob);
   font-weight: 300;
   font-style: italic;
@@ -325,16 +342,21 @@ header .nav .nav-item:hover {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
-  gap: 0.4rem;
+  gap: var(--gap-social);
+  font-family: "roboto";
+  text-transform: uppercase;
+  transition: all 0.2s;
 }
 #contact .contact-list .contact-item a span {
   display: block;
   order: 1;
 }
-#contact .contact-list .contact-item a i {
+#contact .contact-list .contact-item a img {
   display: block;
   order: 0;
-  filter: drop-shadow(1px 1px 3px var(--black));
+  width: var(--size-brand);
+  height: var(--size-brand);
+  object-fit: cover;
 }
 @media (max-width: 380px) {
   #contact {
@@ -357,6 +379,45 @@ header .nav .nav-item:hover {
   }
 }
 
+@media (max-width: 720px) {
+  #contact {
+    --fontSize: 3.5rem;
+    background-color: var(--black);
+    color: var(--grayLight);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 130px 0;
+  }
+  #contact .contact-list {
+    display: flex;
+    gap: 2rem;
+  }
+  #contact .contact-list .contact-item {
+    display: flex;
+  }
+  #contact .contact-list .contact-item a {
+    --size-brand: 3rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 0.4rem;
+    font-family: "roboto";
+  }
+  #contact .contact-list .contact-item a span {
+    display: none;
+    order: 1;
+  }
+  #contact .contact-list .contact-item a img {
+    display: block;
+    order: 0;
+    width: var(--size-brand);
+    height: var(--size-brand);
+    object-fit: cover;
+  }
+}
 footer {
   background-color: var(--black);
   display: flex;

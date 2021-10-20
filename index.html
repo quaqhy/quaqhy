@@ -23,31 +23,25 @@
 
   <!-- my style -->
   <link rel="stylesheet" href="./styles/render.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
 
   <!-- header -->
   <header>
-
-    <ul class="nav">
-
-
-  </header>
-
-  <div style="display: none;">
-    <div class="container">
-    </div>
-
-    <li class="nav-item">
-      <a href="#project">projects</a>
-    </li>
-    <li class="nav-item">
-      <a href="#contact">contact</a>
-    </li>
+    <div class="menu-dot"></div>
+    <ul class="nav-dot">
+      <li class="nav-item">
+        <a href="#project">projects</a>
+      </li>
+      <li class="nav-item">
+        <a href="#contact">contact</a>
+      </li>
     </ul>
-  </div>
+  </header>
 
   <!-- main -->
   <main>
@@ -56,7 +50,7 @@
       <p class="job">console.log("<strong>FrontEnd Developer</strong>")</p>
     </section>
 
-    <section class="projects" id="project">
+    <section class="projects link-to-nav" id="project">
       <h2 class="title">There are some of my projects</h2>
       <div class="grid">
         <a href="https://hyquaq.github.io/WebQuestion/" class="project">
@@ -121,7 +115,7 @@
     </section>
 
     <!-- contact -->
-    <section id="contact">
+    <section id="contact" class="link-to-nav">
       <div class="description">
         <h2>Let's work together...</h2>
         <p class="quote">
@@ -132,41 +126,36 @@
       <ul class="contact-list">
         <li class="contact-item">
           <a href="https://www.facebook.com/quaqhy/">
-            <span>facebook</span>
-            <i class="bx bxl-facebook-square"></i>
+            <!-- <span>facebook</span> -->
+            <img src="./data/icon/facebook.png" alt="">
           </a>
         </li>
         <li class="contact-item">
           <a href="https://www.youtube.com/channel/UCjjhWyzMfhhkXxc7qcHEdCA">
-            <span>youtube</span>
-            <i class="bx bxl-youtube"></i>
+            <!-- <span>youtube</span> -->
+            <img src="./data/icon/youtube.png" alt="">
           </a>
         </li>
         <li class="contact-item">
           <a href="https://github.com/hyquaq">
-            <span>github</span>
-            <i class="bx bxl-github"></i>
+            <!-- <span>github</span> -->
+            <img src="./data/icon/github.png" alt="">
           </a>
         </li>
-        <li class="contact-item">
+        <!-- <li class="contact-item">
           <a href="https://www.linkedin.com/in/hyquaq/">
             <span>linkedin</span>
-            <i class="bx bxl-linkedin-square"></i>
+            <img src="./data/icon/linkedin.png" alt="">
           </a>
-        </li>
+        </li> -->
 
-        <li class="contact-item">
+        <!-- <li class="contact-item">
           <a href="mailto:hyquaq@gmail.com" type="e">
             <span>send a email</span>
             <i class="bx bx-at"></i>
           </a>
-        </li>
-        <!-- <li class="contact-item">
-            <a href="tel:0123456789">
-              <span>Call me</span>
-              <i class="bx bx-mobile"></i>
-            </a>
-          </li> -->
+        </li> -->
+
       </ul>
     </section>
   </main>
@@ -181,7 +170,11 @@
   </footer>
 
   <!-- script-->
-  <script src="./scripts/script.js"></script>
+
+  <!-- <script src="./scripts/script.js"></script> -->
+  <script src="./scripts/autoSlide.js"></script>
+  <script src="./scripts/toggleSocial.js"></script>
+  <script src="./scripts/menuDot.js"></script>
   <script>
     console.log("Give the world a reason to remember your name.");
   </script>

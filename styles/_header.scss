@@ -2,36 +2,46 @@ header {
   position: fixed;
   z-index: 1;
 
-  height: 70px;
-  width: 100%;
+  height: var(--height-header);
+  width: var(--width-header);
   display: flex;
   justify-content: flex-end;
 
   align-items: center;
   color: var(--white);
 
-  .nav {
-    margin-right: 2rem;
+  .menu-dot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-25%, 25%);
 
-    height: 100%;
-    display: flex;
-    font-size: 1.5rem;
+    width: var(--size-menu);
+    height: var(--size-menu);
+    border-radius: 50%;
+
+    background-color: var(--gray);
+    // overflow: hidden;
+  }
+  .nav-dot {
+    --p-left-right-nav-item: 0.4rem;
+
+    position: relative;
+    transform: translate(-10%, calc(var(--size-menu) + 10px));
 
     .nav-item {
-      height: 100%;
-      display: flex;
-      justify-content: center;
-
-      align-items: center;
-      padding: 1.5rem;
+      padding: 0.2rem var(--p-left-right-nav-item);
+      border-radius: 5px;
 
       &:hover {
         background-color: var(--blueLight);
       }
     }
-  }
+    transform: translate(calc(100% + var(--p-left-right-nav-item) * 2), calc(var(--size-menu) + 10px));
 
-  @media (max-width: 600px) {
-    display: none;
+    transition: transform 0.2s;
+    &.active {
+      transform: translate(-10%, calc(var(--size-menu) + 10px));
+    }
   }
 }
