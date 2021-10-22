@@ -1,0 +1,65 @@
+header {
+  position: fixed;
+  z-index: 1;
+
+  height: var(--height-header);
+  width: var(--width-header);
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+  color: var(--white);
+
+  .menu-dot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-25%, 25%);
+
+    width: var(--size-menu);
+    height: var(--size-menu);
+    border-radius: 50%;
+
+    box-shadow: 2px 2px 5px var(--black);
+    background-color: var(--gray);
+
+    &.active {
+      box-shadow: 2px 2px 2px inset currentColor;
+    }
+  }
+
+  .nav-dot {
+    --p-left-right-nav-item: 0.4rem;
+    cursor: pointer;
+
+    position: relative;
+    transform: translate(-10%, calc(var(--size-menu) + 15px));
+
+    .nav-item {
+      padding: 0.2rem var(--p-left-right-nav-item);
+      border-radius: 5px;
+      margin-top: 0.2rem;
+      background-color: var(--gray-light);
+
+      position: relative;
+      &:hover::after {
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: currentColor;
+        opacity: 0.3;
+        border-radius: inherit;
+        position: absolute;
+        z-index: -1;
+      }
+    }
+    transform: translate(calc(100% + var(--p-left-right-nav-item) * 2), calc(var(--size-menu) + 15px));
+
+    transition: transform 0.2s;
+    &.active {
+      transform: translate(-10%, calc(var(--size-menu) + 15px));
+    }
+  }
+}
