@@ -37,9 +37,9 @@ const cards = [
     url: "https://hyquaq.github.io/desdev-ex3/",
   },
   {
-    name: "Wallpaper Collection",
-    srcImg: "/imgs/desdev4.png",
-    url: "https://hyquaq.github.io/desdev-ex4/",
+    name : "Wallpaper Collection",
+    srcImg : "/imgs/desdev4.png",
+    url : "https://hyquaq.github.io/desdev-ex4/",
   },
   {
     name: "Wallpaper Collection",
@@ -60,9 +60,9 @@ const cards = [
 
 const listSocials = [
   {
-    url: "https://www.facebook.com/quaqhy/",
-    urlImg: "/imgs/icon/facebook.png",
-    urlImgHover: "/imgs/icon/facebook-bold.png",
+    url : "https://www.facebook.com/quaqhy/",
+    urlImg : "/imgs/icon/facebook.png",
+    urlImgHover : "/imgs/icon/facebook-bold.png",
   },
   {
     url: "https://www.youtube.com/channel/UCjjhWyzMfhhkXxc7qcHEdCA/",
