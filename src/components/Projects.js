@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Card from "./Card";
+import { Button, Card, CardContent, CardActions, Grid } from "@mui/material";
+import Project from "./Project";
 
 Projects.propTypes = {
   projects: PropTypes.array,
@@ -15,16 +16,16 @@ function Projects(props) {
   return (
     <section className="projects link-to-nav" id="project">
       <h2 className="title">There are some of my projects</h2>
-      <div className="grid">
+      <Grid container spacing={2}>
         {projects.map((project, index) => (
-          <Card
+          <Project
             url={project.url}
-            name={project.name}
             srcImg={project.srcImg}
-            key={index}
+            name={project.name}
+            index={index}
           />
         ))}
-      </div>
+      </Grid>
 
       <a
         href="#"
