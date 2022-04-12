@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning at TDTU 
 - 📫 How to reach me software development exactly frontend developer.
 
-[🔥🔥🔥My Website🔥🔥🔥](https://hyquaq.github.io/hyquaq/index.html)
+[🔥🔥🔥My Website🔥🔥🔥](https://quaqhy.github.io/quaqhy/index.html)
 
 see yah 👋👋👋
 <!---
