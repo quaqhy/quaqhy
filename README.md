@@ -7,6 +7,13 @@
 
 </ul>
 
+<div>
+
+![github contribution grid snake animation](https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![github contribution grid snake animation](https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+
+</div>
+
 <div style="font-weight:bold; width:100%; text-align:center; margin:12px;">
   See yah 👋👋👋
 </div>
