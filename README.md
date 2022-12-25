@@ -1,64 +1,67 @@
-- 👋 Hi, I’m @hyquaq
-- 👀 I’m interested in watch movie and do anything.
-- 🌱 I’m currently learning at TDTU 
-- 📫 How to reach me software development exactly frontend developer.
+<ul style="font-size:16px"> 
+  <li style="font-weight:bold">👋 Hi, I’m Nguyen Huy</li>
+  <li>👀 I’m interested in coding and reading.</li>
+  <li>🌱 I’m currently learning at TDTU.</li>
+  <!-- <li>📫 How to reach me software development exactly frontend developer.</li> -->
+  <!-- <li><a href="https://quaqhy.github.io/quaqhy/index.html">🔥🔥🔥My Website🔥🔥🔥</a></li> -->
 
-[🔥🔥🔥My Website🔥🔥🔥](https://quaqhy.github.io/quaqhy/index.html)
+</ul>
 
-see yah 👋👋👋
-<!---
-hyquaq/hyquaq is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<div style="font-weight:bold; width:100%; text-align:center; margin:12px;">
+  See yah 👋👋👋
+</div>
 
-![Huy's GitHub stats](https://github-readme-stats.vercel.app/api?username=nguyenhuy158&show_icons=true&theme=transparent)
+<!-- about  -->
+<h1>Waka time</h1>
+<!-- table -->
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <a href="">
+          <img src="https://github-readme-stats.vercel.app/api?username=nguyenhuy158&show_icons=true&theme=transparent"/>
+        </a>
+      </td>
+      <td>
+        <a href="">
+          <img src="https://github-readme-stats.vercel.app/api/wakatime?username=nguyenhuy158&theme=transparent"/>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-
-![Huy's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=nguyenhuy158)
-
-
-| <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=nguyenhuy158&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nguyenhuy158&layout=compact&theme=buefy&hide_border=true" /></a> |
-| ------------- | ------------- |
-
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax">
-      <a href="https://github.com/nguyenhuy158/nguyenhuy158">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenhuy158&repo=nguyenhuy158" />
-      </a>
-    </th>
-    <th class="tg-0lax">
-      <a href="https://github.com/nguyenhuy158/QuanLyXiNghiepMay">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenhuy158&repo=QuanLyXiNghiepMay" />
-      </a>
-    </th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax">
-      <a href="https://github.com/nguyenhuy158/CustomAnimation">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenhuy158&repo=CustomAnimation" />
-      </a>
-    </td>
-    <td class="tg-0lax">
-      <a href="https://github.com/nguyenhuy158/SQL-Tuning ">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenhuy158&repo=SQL-Tuning" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">
-      <a href="https://github.com/nguyenhuy158/CustomAnimation">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenhuy158&repo=CustomAnimation" />
-      </a>
-    </td>
-    <td class="tg-0lax">
-      <a href="https://github.com/nguyenhuy158/CustomAnimation">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenhuy158&repo=CustomAnimation" />
-      </a>
-    </td>
-  </tr>
-</tbody>
+<!-- h2 -->
+<h2>My 💖 repo</h2>
+<!-- table -->
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <a href="">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenhuy158&repo=CustomAnimation&theme=transparent" />
+        </a>
+      </td>
+      <td>
+        <a href="">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenhuy158&repo=weather-action-git&theme=transparent" />
+        </a>
+      </td>
+    </tr>
+    &nbsp;
+    <!-- row 2 -->
+    &nbsp;
+    <tr>
+      <td>
+        <a href="">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenhuy158&repo=QuanLyXiNghiepMay&theme=transparent" />
+        </a>
+      </td>
+      <td>
+        <a href="">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenhuy158&repo=25m&theme=transparent" />
+        </a>
+      </td>
+    </tr>
+  </tbody>
 </table>
