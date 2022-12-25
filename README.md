@@ -39,9 +39,9 @@
 </table>
 
 <!-- h2 -->
-<h2>My 💖 repo</h2>
+<!-- <h2>My 💖 repo</h2> -->
 <!-- table -->
-<table>
+<!-- <table>
   <tbody>
     <tr>
       <td>
@@ -56,7 +56,7 @@
       </td>
     </tr>
     &nbsp;
-    <!-- row 2 -->
+
     &nbsp;
     <tr>
       <td>
@@ -71,4 +71,4 @@
       </td>
     </tr>
   </tbody>
-</table>
+</table> -->
