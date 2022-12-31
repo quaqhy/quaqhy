@@ -7,6 +7,10 @@
 
 </ul>
 
+<!-- gif -->
+<img src="./giphy.gif" />
+
+<!-- snake -->
 <div>
 
 ![github contribution grid snake animation](https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
