@@ -53,18 +53,20 @@
   <tbody>
     <tr>
       <td>
-        <a href="">
+        <a href="https://github.com/nguyenhuy158">
           <img src="https://github-readme-stats.vercel.app/api?username=nguyenhuy158&show_icons=true&theme=transparent"/>
         </a>
       </td>
       <td>
-        <a href="">
-          <img src="https://github-readme-stats.vercel.app/api/wakatime?username=nguyenhuy158&theme=transparent"/>
+        <a href="https://github.com/nguyenhuy158">
+          <img src="https://github-readme-stats.vercel.app/api/wakatime?username=nguyenhuy158&layout=compact&langs_count=8&theme=transparent"/>
         </a>
       </td>
     </tr>
   </tbody>
 </table>
+
+
 
 <!-- h2 -->
 <!-- <h2>My 💖 repo</h2> -->
