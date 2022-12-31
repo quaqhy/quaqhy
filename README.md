@@ -7,9 +7,6 @@
 
 </ul>
 
-<!-- gif -->
-<img style="width: 200px; height: 200px;" src="./giphy.gif" />
-
 <!-- snake -->
 <div>
 
@@ -18,9 +15,30 @@
 
 </div>
 
-<div style="font-weight:bold; width:100%; text-align:center; margin:12px;">
-  See yah 👋👋👋
+<!-- social -->
+<div id="badges" align="center">
+  <!-- <a href="your-linkedin-URL">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a> -->
+  <a href="https://youtube.com/@ntqhuy2k2">
+    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  </a>
+  <a href="https://fb.com/nguyenhuy158">
+    <img src="https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook Badge"/>
+  </a>
 </div>
+
+<!-- see yah -->
+  <!-- hey there -->
+<div align="center" align>
+<!-- gif -->
+<img style="width: 200px; height: 200px;" src="./giphy.gif" />
+  <!-- <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> -->
+</div>
+
+<!-- <div style="font-weight:bold; width:100%; text-align:center; margin:12px;">
+  See yah 👋👋👋
+</div> -->
 
 <!-- about  -->
 <h1>Waka time</h1>
