@@ -1,4 +1,4 @@
-name: generate animation vs devcard
+name: generate snake animation
 
 permissions: 
         contents: write
@@ -14,7 +14,7 @@ on:
         # run on every push on the master branch
         push:
                 branches:
-                        - master
+                        - main
 
 jobs:
         generate:
@@ -40,16 +40,4 @@ jobs:
                                   build_dir: dist
                           env:
                                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        devcard:
-                runs-on: ubuntu-latest
-                permissions:
-                        contents: write
-                steps:
-                        - name: devcard
-                          uses: dailydotdev/action-devcard@2.0.6
-                          with:
-                                devcard_id: ${{ secrets.DEVCARD_ID }}
-                                commit_branch: devcard
-                                commit_filename: devcard.png
-                                commit_message: "chore: update ${filename}"
-                          
+          
