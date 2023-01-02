@@ -1,6 +1,9 @@
 <!-- in your header -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
+<!-- devcard -->
+<a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/nguyenhuy158/nguyenhuy158/blob/main/nguyenhuy158.png" width="400" alt="NguyenHuy's Dev Card"/></a>
+
 <!-- main -->
 <ul style="font-size:16px"> 
   <li style="font-weight:bold">👋 Hi, I’m Nguyen Huy</li>
