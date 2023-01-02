@@ -6,7 +6,7 @@
     <tr>
     <td>
     <!-- devcard -->
-    <a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/nguyenhuy158/nguyenhuy158/blob/devcard/devcard.png" width="400" alt="NguyenHuy's Dev Card" />
+    <a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/nguyenhuy158/nguyenhuy158/blob/devcard/devcard.png" width="600" alt="NguyenHuy's Dev Card" />
     <!-- <a href="https://app.daily.dev/DailyDevTips"><img src="https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/1461aa607b55205c30fb8202d87e8e1bbcb0a7e7/devcard.png" width="800" alt="NguyenHuy's Dev Card" /> -->
     </td>
     <td>
