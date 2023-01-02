@@ -1,26 +1,35 @@
 <!-- in your header -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
-<!-- devcard -->
-<a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/nguyenhuy158/nguyenhuy158/blob/devcard/devcard.png" width="400" alt="NguyenHuy's Dev Card"/></a>
+<table>
+  <tbody>
+    <tr>
+    <td>
+    <!-- devcard -->
+    <a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/nguyenhuy158/nguyenhuy158/blob/devcard/devcard.png" width="400" alt="NguyenHuy's Dev Card" />
+    <!-- <a href="https://app.daily.dev/DailyDevTips"><img src="https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/1461aa607b55205c30fb8202d87e8e1bbcb0a7e7/devcard.png" width="800" alt="NguyenHuy's Dev Card" /> -->
+    </td>
+    <td>
+      <!-- main -->
+      <ul style="font-size:16px"> 
+        <li style="font-weight:bold">👋 Hi, I’m Nguyen Huy</li>
+        <li>👀 I’m interested in coding and reading.</li>
+        <li>🌱 I’m currently learning at TDTU.</li>
+        <!-- <li>📫 How to reach me software development exactly frontend developer.</li> -->
+        <!-- <li><a href="https://quaqhy.github.io/quaqhy/index.html">🔥🔥🔥My Website🔥🔥🔥</a></li> -->
+      </ul>
+      <!-- snake -->
+      <div>
+      <img src="https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="github contribution grid snake animation">
+      <img src="https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="github contribution grid snake animation">
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-<!-- main -->
-<ul style="font-size:16px"> 
-  <li style="font-weight:bold">👋 Hi, I’m Nguyen Huy</li>
-  <li>👀 I’m interested in coding and reading.</li>
-  <li>🌱 I’m currently learning at TDTU.</li>
-  <!-- <li>📫 How to reach me software development exactly frontend developer.</li> -->
-  <!-- <li><a href="https://quaqhy.github.io/quaqhy/index.html">🔥🔥🔥My Website🔥🔥🔥</a></li> -->
 
-</ul>
 
-<!-- snake -->
-<div>
-
-![github contribution grid snake animation](https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-![github contribution grid snake animation](https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/output/github-contribution-grid-snake.svg#gh-light-mode-only)
-
-</div>
 
 <!-- social -->
 <div id="badges" align="center">
