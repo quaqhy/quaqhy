@@ -1,6 +1,6 @@
 <!-- in your header -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/main/style.css">
 
 <table>
   <tbody>
