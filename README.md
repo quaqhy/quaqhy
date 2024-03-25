@@ -7,7 +7,12 @@
     <tr>
     <td>
     <!-- devcard -->
-    <a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/nguyenhuy158/nguyenhuy158/blob/devcard/devcard.png" width="600" alt="NguyenHuy's Dev Card" />
+    <a href="https://app.daily.dev/DailyDevTips">
+        <img src="https://github.com/nguyenhuy158/nguyenhuy158/blob/devcard/devcard.png" width="600" alt="NguyenHuy's Dev Card" />
+    </a>
+    <a href="https://roadmap.sh">
+        <img src="https://api.roadmap.sh/v1-badge/tall/66012c6a6deb533d6e2b7292?variant=dark" alt="roadmap.sh"/>
+    </a>
     </td>
     <td>
       <!-- main -->
@@ -31,8 +36,8 @@
   <a href="https://youtube.com/@ntqhuy2k2">
     <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
   </a>
-  <a href="https://fb.com/nguyenhuy158">
-    <img src="https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook Badge"/>
+  <a href="https://www.linkedin.com/in/nguyenhuy158">
+    <img src="https://img.shields.io/badge/Linkedin-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Badge"/>
   </a>
   <a href="mailto:huy.ntq02@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-orange?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
@@ -46,7 +51,7 @@
 </div>
 
 <!-- about waka time -->
-<h1>Waka time</h1>
+<h1>Coding time</h1>
 <!-- table -->
 <table>
   <tbody>
