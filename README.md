@@ -23,8 +23,8 @@
       </ul>
       <!-- snake -->
       <div>
-      <img src="https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="github contribution grid snake animation">
-      <img src="https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="github contribution grid snake animation">
+      <img src="https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/output/github-snake.svg#gh-light-mode-only" alt="github contribution grid snake animation">
+      <img src="https://raw.githubusercontent.com/nguyenhuy158/nguyenhuy158/output/github-snake-dark.svg#gh-dark-mode-only" alt="github contribution grid snake animation">
       </div>
       </td>
     </tr>
