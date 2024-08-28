@@ -7,10 +7,10 @@
     <tr>
     <td>
     <!-- devcard -->
-<!--     <a href="https://app.daily.dev/nguyenhuy158">
+    <a href="https://app.daily.dev/nguyenhuy158">
         <img src="https://api.daily.dev/devcards/v2/m1gjIGSYTK5NSeehKkVLA.png?type=default&r=e1x" width="600" alt="NguyenHuy's Dev Card" />
-    </a> -->
-    <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/66012c6a6deb533d6e2b7292?variant=dark" alt="roadmap.sh"/></a>
+    </a>
+<!--     <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/66012c6a6deb533d6e2b7292?variant=dark" alt="roadmap.sh"/></a> -->
     <!-- <a href="https://roadmap.sh">
         <img src="https://api.roadmap.sh/v1-badge/tall/66012c6a6deb533d6e2b7292?variant=dark" alt="roadmap.sh"/>
     </a> -->
